@@ -2,14 +2,15 @@
     box-sizing: border-box;
 }
 
+/* 
 .menu1 {
     display: inline;
 
-}
+} */
 
 body {
     background-color: lightgray;
-    margin: 150px 250px;
+    margin: 100px 250px;
 }
 
 .logo {
@@ -18,19 +19,23 @@ body {
 
 #task {
     background-color: white;
-    margin: 20px 0px 20px 40px ;
-    padding: 5px 10px; 
+    margin: 20px 0px 10px 40px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
 }
 
-#section{
+#section {
     background-color: white;
-    margin: 20px 20px 20px 10px;
-    padding: 5px 10px; 
+    margin: 20px 20px 10px 4px;
+    padding: 5px 10px;
+    border-radius: 10px;
 }
 
 #down-icon {
     height: 20px;
     width: 20px;
+    margin-left: 15px;
 }
 
 header {
@@ -47,6 +52,43 @@ main {
 }
 
 
-#buttons{
+/* #buttons {
     display: inline;
+} */
+
+.firstm{
+    display: flex;
+}
+
+#menu1{
+    margin-top: 0px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.firstTask{
+    display: flex;
+}
+
+#done{
+    width: 15px;
+    height: 15px;
+    margin-left: 50px;
+    margin-top: 2px;
+}
+
+#new-task{
+    margin-top: 1px;
+    margin-left: 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+#Editorial{
+    margin-top: 1px;
+    margin-left: 5px;
+    background-color: lightskyblue;
+    padding: 3px;
+    border-radius: 10px;
 }
