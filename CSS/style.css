@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+.menu1 {
+    display: inline;
+
+}
+
+body {
+    background-color: lightgray;
+    margin: 150px 250px;
+}
+
+.logo {
+    padding: 10px;
+}
+
+#task, #section{
+    background-color: white;
+    margin: 20px 50px;
+}
+
+#down-icon {
+    height: 20px;
+    width: 20px;
+}
+
+header {
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+main {
+    background-color: white;
+    /* margin: 80px; */
+}
+
+/* #task {
+    background-color: brown;
+} */
+
+#buttons{
+    display: inline;
+}
