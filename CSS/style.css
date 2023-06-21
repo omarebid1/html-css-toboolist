@@ -92,3 +92,58 @@ main {
     padding: 3px;
     border-radius: 10px;
 }
+
+.today{
+    display: flex;
+}
+
+#todaym{
+    margin-top: 0px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+#item{
+    display: flex;
+}
+
+
+#item2g{
+    margin-top: 1px;
+    margin-left: 5px;
+    background-color: violet;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+#item3g{
+    margin-top: 1px;
+    margin-left: 5px;
+    background-color: greenyellow;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+#item4g{
+    margin-top: 1px;
+    margin-left: 5px;
+    background-color: orange;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+#item5g{
+    margin-top: 1px;
+    margin-left: 5px;
+    background-color: deeppink;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+#item6g{
+    margin-top: 1px;
+    margin-left: 5px;
+    background-color: chartreuse;
+    padding: 3px;
+    border-radius: 10px;
+}
